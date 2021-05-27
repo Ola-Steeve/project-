@@ -1,0 +1,59 @@
+body{
+    background-color: #333;
+    color: #ffffff;
+}
+
+.navbar{
+	opacity:0.8;
+	border-bottom: #ffb8c1 3px solid;
+}
+
+#home-layout {
+  background: url("rasp.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+   }
+.tran{
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+
+
+}
+  #home-layout .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; 
+	}
+	
+ #home-layout .home-inner {
+    padding-top: 250px; 
+  }
+
+  .card-columns{
+      border:#cccccc solid 1px;
+  background-color: #e6e6e6;  
+}
+  
+  .newDiv{
+  margin: 3px;
+  min-height: 300px;
+  background-color:#ffc0cb;
+  text-align: center;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.customDiv{
+  margin: 3px;
+  min-height: 300px;
+  /*background-color:silver;*/
+  text-align: center;
+  font-size: large;
+}
+
+ 
